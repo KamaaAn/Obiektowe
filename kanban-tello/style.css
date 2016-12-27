@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300');
+* {
+	box-sizing: border-box;
+	margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #08332C;
+}
+    .container {
+        width: 100% !important;
+        text-align: center;
+        background: #A9C6CA; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, #A9C6CA, #51AFAF); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #A9C6CA, #51AFAF); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #A9C6CA, #51AFAF); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #A9C6CA, #51AFAF); /* Standard syntax */ 
+        min-height: 900px;
+}
+h1 {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-size: 48px !important;
+}
+
+.create-column-button {
+    position: relative;
+	padding: 10px 40px;
+    margin: 0px, 10px, 10px, 0px;
+	border-radius: 10px;
+	font-size: 20px;
+    font-weight: 300;
+	color: #FFF;
+	text-decoration: none;
+    background-color: #A9C6CA;
+	border-bottom: 5px, solid, #51AFAF;
+	text-shadow: 0px -2px #A9C6CA;
+}
+.text-center {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.column-container {
+    margin: 0;
+    padding: 50px;
+}
+.btn-delete {
+	border-radius: 50px;
+	font-size: 10px;
+	color: red;
+	text-decoration: none;
+    background-color: #FDFDFD;
+    float: right;
+}
+.col-md-3 {
+    float: left;
+    background-color: #51AFAF;
+    margin: 50px;
+    border: 5px;
+    border-style: solid;
+    border-color: #024742;
+    padding: 0;
+    border-radius: 10px;
+}
+.add-card {
+    position: relative;
+	padding: 7px 20px;
+    margin: 20px;
+	border-radius: 10px;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+    background-color: #024742;
+	border: 5px;
+    border-style: solid;
+    border-color: #024742;
+}
+.card-placeholder {
+	height: 115px;
+	width: 100%;
+	background: rgba(255,255,255,.4);
+	margin-bottom: 10px;
+
+}
+.card {
+	min-height: 130px;
+    background: white;
+    border-radius: 10px;
+    padding: 11px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    border: 2px solid #024742;
+    background-color: #A8C5C9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #024742;
+    min-height: 100px;
+    padding-top: 30px;
+}
+.footer p{
+  color: #fff;
+}
+
+
+
+
+
