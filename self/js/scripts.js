@@ -1,23 +1,23 @@
-function Button(text) {
+function button(text) {
 	this.text = text || "Hello";
 }
     
 
-Button.prototype = {
+button.prototype = {
     create: function() {
         var self =this;
         this.$element = $("<Button>");
         this.$element.text(this.text);
         this.$element.click(function(){
-            aler(self.text);
+            alert(self.text);
         })
         $("Body").append(this.$element);
 }
 }
 
 
-var btn1 = new Button("Hello");
+var btn1 = new button("Hello");
+var btn2 = new button("Aloha");
 
 btn1.create();
-
-/*comment
+btn2.create();
